@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Facebook login clone</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div id="header-container">
+            <h2>facebook</h2>
+            <form id="header-right">
+                <table>
+                    <tr>
+                        <td class="labels">Adresse e-mail ou mobile</td>
+                        <td class="labels">Mot de passe</td>
+                    </tr>
+                    <tr>
+                        <td><input type="email" size="15"></td>
+                        <td><input type="password" size="15"></td>
+                        <td><input type="submit" value="Connexion"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="labels" id="information-compte">Informations de compte oubliees&nbsp;?</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+        <div class="clear"></div>
+    </header>
+    <section id="main-section">
+        <aside id="side-left">
+            <p>Avec Facebook,&nbsp;partagez et restez en contact<br>avec votre entourage</p>
+            <img src="images/network.png" alt="please upload an image" width="90%">
+            <div class="clear"></div>
+        </aside>
+        <aside id="side-right">
+            <p id="inscription-title">Inscription</p>
+            <p id="inscription-gratuit">C'est gratuit (et ca le restera toujours)</p>
+            <form>
+                <div>
+                    <input type="text" placeholder="Prenom" class="login-inputs">
+                    <input type="text" placeholder="Nom de famille" class="login-inputs"><br>
+                    <input type="email" placeholder="Numero de mobile ou email" class="login-inputs" size="49"><br>
+                    <input type="text" placeholder="Nouveau mot de passe" class="login-inputs" size="49">
+                </div>
+
+                <div id="second-field">
+                    <table>
+                        <tr>
+                            <td>
+                                <p id="birth-title">Date de naissance</p>
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <select class="select-option">
+                                    <option>19</option>
+                                </select>
+                                <select class="select-option">
+                                    <option>sept</option>
+                                </select>
+                                <select class="select-option">
+                                    <option>1990</option>
+                                </select>
+                            </td>
+                            <td>
+                                <p><a href="" class="date-naissance">Pourquoi indiquer ma date <br><span>de naissance&nbsp;?</span></a></p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div id="labels">
+                    <label id="femme"><input type="radio">&nbsp;&nbsp;Femme</label>
+                    <label id="homme"><input type="radio">&nbsp;&nbsp;Homme</label>
+                </div>
+                <div id="terms-condition">
+                    <p>En appuyant sur inscription, vous acceptez nos <span><a href="" class="date-naissance">Conditions generales,</a></span> notre <span><a href="" class="date-naissance">Politique d'utilisation des donnees </a></span>et notre <span><a href="" class="date-naissance">Politique d'utilisation des cookies.</a></span>Vous recevrez peut-etre des notifications par texto de notre part et vous pouvez a tout moment vous desabonner.</p>
+                </div>
+                <div><button id="inscription-button">Inscription</button></div>
+                <div id="create-page">
+                    <p id="create-page"><a href="" id="creer-page">Creer une Page</a> pour une celebrite, un groupe ou une entreprise</p>
+                </div>
+
+            </form>
+            <div class="clear"></div>
+        </aside>
+    </section>
+</body>
+
+</html>
