@@ -1,80 +1,96 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /*styling the header*/
-body{
-    width: 100vw;
+body {
+    width: 100%;
     overflow-x: hidden;
+    background-image: linear-gradient(white, #E9EBEE, #E9EBEE);
 }
-header{
+
+header {
     background-color: #435F9C;
-    color:#fff;
+    margin-left: auto;
+    margin-right: auto;
+    color: #fff;
     padding: 0.5em;
 }
-#header-container{
-    width:90%;
-    margin:auto;
-    position : relative;
+
+#header-container {
+    width: 90%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
-header h2{
-    font-size:2.4em;
+
+header h2 {
+    font-size: 2.4em;
     font-family: sans-serif;
     font-weight: 700;
-    float: left;
-    position : absolute;
-    top : 15px;
+    position: relative;
+    top: 15px;
 }
-#header-right{
-    float: right;
-    position:relative;
-    right: 4.2em;
+
+#header-right {
+    width: 50%;
+    margin-left: auto;
 }
- .clear{
-    clear: both;
-}
-table input[type="submit"]{
+
+table input[type="submit"] {
     background-color: #4E69A2;
     color: #fff;
     font-weight: bold;
-    padding:0.15em;
+    padding: 0.15em;
     cursor: pointer;
-    word-spacing: nowrap;
-    border: 1px solid rgba(0,0,0,0.9);
+    border: 1px solid rgba(0, 0, 0, 0.9);
 }
-table input[type="submit"]:hover{
-   background-color:#44619D;
+
+table input[type="submit"]:hover {
+    background-color: #44619D;
 }
-table{
+
+table {
     border-collapse: collapse;
-    border:0px;
+    border: 0px;
 }
- td{
+
+td {
     padding: 0.2em;
 }
-tr .labels{
-    font-size : 0.77em;
+
+tr .labels {
+    font-size: 0.77em;
 }
-tr #information-compte{
-    opacity:0.5;
+
+tr #information-compte {
+    opacity: 0.5;
 }
+
 /* styling the main login section*/
-section #side-left{
-    float: left;
+#main-section {
+    display: flex;
+    flex-direction: row;
+}
+img{
+    width: 90%;
+}
+
+section #side-left {
     width: 55%;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     padding: 2.8em;
 }
-section #side-right{
-    float: right;
+
+section #side-right {
     width: 45%;
     margin: auto;
 }
-body{
-    background-image: linear-gradient(white,#E9EBEE,#E9EBEE);
-}
-#side-left p{
+
+#side-left p {
     color: #0e385f;
     font-family: sans-serif;
     font-weight: bold;
@@ -83,41 +99,47 @@ body{
     word-spacing: -1px;
 }
 
-.login-inputs{
-    border: 1px solid #c4c4c4 ;
+.login-inputs {
+    border: 1px solid #c4c4c4;
     border-radius: 2px;
     padding: 0.8em;
     margin: 0.4em auto;
 }
- #inscription-title{
-    font: 1.9em Helvetica,Arial,sans-serif;
+
+#inscription-title {
+    font: 1.9em Helvetica, Arial, sans-serif;
     color: #333333;
     font-weight: 600;
     margin: 0.5em auto;
 }
+
 #inscription-gratuit {
     font: 1.1em sans-serif;
-    color: 1D2129;
+    color: #1D2129;
     margin-bottom: 0.3em;
 }
-.select-option{
+
+.select-option {
     padding: 0.3em 0.6em;
 }
-.date-naissance{
+
+.date-naissance {
     font: 0.8em sans-serif;
     text-decoration: none;
     color: #365899;
 }
-#terms-condition{
+
+#terms-condition {
     text-align: justify;
     font: 0.8em sans-serif;
     color: #777777;
     max-width: 70%;
-    position:relative;
-    margin: 0.1em ;
+    position: relative;
+    margin: 0.1em;
 }
-#inscription-button{
-    background:linear-gradient(#67ae55,#578843);
+
+#inscription-button {
+    background: linear-gradient(#67ae55, #578843);
     background-color: #69a74e;
     box-shadow: inset 0 1px 1px #a4e388;
     color: #fff;
@@ -131,30 +153,45 @@ body{
     font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
     font-weight: bold;
     cursor: pointer;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
-#creer-page{
+
+#creer-page {
     text-decoration: none;
-    color: #365899; 
+    color: #365899;
 }
-#create-page{
+
+#create-page {
     color: #666666;
     font-weight: bold;
     font-size: 0.96em;
     padding-bottom: 0.8em;
 }
-#femme{
-    margin-right:20px;
+
+#femme {
+    margin-right: 20px;
 }
-#femme,#homme,#birth-title{
+
+#femme,
+#homme,
+#birth-title {
     font-family: sans-serif;
 }
-#labels{
-    position:relative;
+
+#labels {
+    position: relative;
     left: 10px;
     margin: 0.7em auto;
 }
 
+#language-change {
+    text-decoration: none;
+    color: #666666;
+}
 
-
-
+footer {
+    background-color: #fff;
+    text-align: center;
+    height: 4rem;
+    padding: 1em;
+}
