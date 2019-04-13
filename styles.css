@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    min-width:900px; 
+}
 
 /*styling the header*/
 body {
