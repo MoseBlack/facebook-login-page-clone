@@ -39,6 +39,11 @@ header h2 {
     margin-left: auto;
 }
 
+#header-register {
+    width: 43%;
+    margin-left: auto;
+}
+
 table input[type="submit"] {
     background-color: #4E69A2;
     color: #fff;
@@ -74,7 +79,8 @@ tr #information-compte {
     display: flex;
     flex-direction: row;
 }
-img{
+
+img {
     width: 90%;
 }
 
@@ -187,6 +193,47 @@ section #side-right {
 #language-change {
     text-decoration: none;
     color: #666666;
+}
+
+#side-left #connect {
+    color: #333333;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 1.75em;
+    line-height: 1.4em;
+    word-spacing: -1px;
+}
+
+ul {
+    margin-top: 1.5em;
+}
+
+ul > li {
+    display: flex;
+    flex-direction: row;
+    margin: 1.2em auto;
+}
+
+ul > li > p {
+    width: 90%;
+    margin: auto;
+    align-content: center;
+    padding: 0 0 0 1em;
+}
+
+.text-highlight {
+    font-size: 17px;
+    color: #333333;
+}
+
+.text {
+    font-size: 15px;
+    color: #666666;
+}
+
+.image {
+    width: 56px;
+    height: 56px;
 }
 
 footer {
